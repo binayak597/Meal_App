@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    /* background-image: url(assets/Premium\ Photo\ _\ Food\ presentation\ background\ organic\ various\ exotic\ species\ on\ black\ slate\ board.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: black;
+    color: whitesmoke;
+}
+
+/* HEADER SECTION */
+h1{
+    font-size: 3rem;
+}
+h3, h6{
+    font-size: 1.5rem;
+}
+#header{
+    margin-top: 5rem;
+}
+
+/* MEAL INPUT SECTION */
+.search-bar{
+    max-width: 575px;
+}
+
+.search-bar input{
+    padding: 2px 15px;
+    height: 3rem;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+
+
+/* MEAL CARD SECTION */
+.card{
+    border-radius: 7%;
+}
+#card{
+    background-color: #57cc99;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+}
+
+#card img{
+    border-radius: 20%;
+}
+
+/* SPECIFIC MEAL CARD  */
+#meal-details{
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+    background-color:#57cc99 ;
+}
+#meal-header{
+    width: 70%;
+    margin: auto;
+}
+#meal-thumbail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20%;
+}
